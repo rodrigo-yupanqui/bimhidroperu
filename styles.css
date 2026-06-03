@@ -68,8 +68,8 @@ textarea {
 .logo {
     display: inline-flex;
     align-items: center;
-    gap: 0.75rem;
-    font-size: 1.25rem;
+    gap: 1rem;
+    font-size: 1.35rem;
     font-weight: 800;
     letter-spacing: 0.06em;
     color: var(--accent-strong);
@@ -78,7 +78,7 @@ textarea {
 
 .logo img {
     display: block;
-    height: 42px;
+    height: 90px;
     width: auto;
     border-radius: 0.5rem;
     object-fit: contain;
@@ -360,7 +360,20 @@ section {
 .contacto-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.65);
 }
+.contact-status {
+    min-height: 2rem;
+    margin-bottom: 1rem;
+    color: #f8f6ff;
+    font-weight: 600;
+}
 
+.contact-status.success {
+    color: #b7f5a4;
+}
+
+.contact-status.error {
+    color: #ffb3b3;
+}
 .contacto-form button {
     width: max-content;
 }
