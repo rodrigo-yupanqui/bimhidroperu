@@ -2,146 +2,158 @@
 <html lang="es">
 
 <head>
-
-    <!-- =======================================
-         CONFIGURACIÓN GENERAL
-    ======================================== -->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="BIMHIDRO PERÚ - BIM, SIG, HEC-RAS y soluciones hidráulicas">
-
+    <meta name="author" content="BIMHIDRO PERÚ">
     <title>BIMHIDRO PERÚ</title>
-
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
-
-    <!-- =======================================
-         ENCABEZADO
-    ======================================== -->
-
     <header class="header">
-
-        <div class="logo">
-            BIMHIDRO PERÚ
+        <div class="container header-inner">
+            <a class="logo" href="#inicio">
+                <img src="logo.jpeg" alt="Logo BIMHIDRO PERÚ">
+                <span>BIMHIDRO PERÚ</span>
+            </a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="main-menu" aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
         </div>
-
-        <nav class="nav">
-
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#cursos">Cursos</a>
-            <a href="#contacto">Contacto</a>
-
-        </nav>
-
     </header>
 
-    <!-- =======================================
-         HERO
-    ======================================== -->
-
-    <section class="hero" id="inicio">
-
-        <h1>BIM PARA INFRAESTRUCTURA HIDRÁULICA</h1>
-
-        <p>
-            Especialistas en BIM, SIG, HEC-RAS y Transformación Digital en ingeniería hidráulica.
-        </p>
-
-        <a href="#servicios" class="btn">Conocer Servicios</a>
-
-    </section>
-
-    <!-- =======================================
-         SERVICIOS
-    ======================================== -->
-
-    <section class="servicios" id="servicios">
-
-        <h2>Nuestros Servicios</h2>
-
-        <div class="contenedor-cards">
-
-            <div class="card">
-                <h3>Modelado BIM</h3>
-                <p>Desarrollo de modelos BIM para proyectos hidráulicos y civiles.</p>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <span class="eyebrow">Ingeniería hidráulica inteligente</span>
+                <h1>BIM para infraestructura hidráulica con GIS y HEC-RAS</h1>
+                <p>Especialistas en modelado BIM, análisis hidráulico y soluciones digitales que impulsan proyectos más seguros y eficientes.</p>
+                <div class="hero-actions">
+                    <a href="#servicios" class="btn">Conocer servicios</a>
+                    <a href="#contacto" class="btn btn-secondary">Solicitar consulta</a>
+                </div>
             </div>
+        </section>
 
-            <div class="card">
-                <h3>HEC-RAS</h3>
-                <p>Modelación hidráulica 1D y 2D para ríos, canales y drenajes.</p>
+        <section class="servicios" id="servicios">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestros servicios</h2>
+                    <p>Soluciones integrales para modelado, análisis y gestión de obras hidráulicas con un enfoque ágil y profesional.</p>
+                </div>
+                <div class="contenedor-cards">
+                    <article class="card">
+                        <div class="card-icon">🧭</div>
+                        <h3>Modelado BIM</h3>
+                        <p>Modelos coordinados para proyectos hidráulicos y civiles con trazabilidad total.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🌊</div>
+                        <h3>HEC-RAS</h3>
+                        <p>Simulación hidráulica para ríos, canales, drenajes y análisis de inundaciones.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🗺️</div>
+                        <h3>QGIS y SIG</h3>
+                        <p>Análisis geoespacial, cartografía y gestión de datos territoriales para decisiones rápidas.</p>
+                    </article>
+                </div>
             </div>
+        </section>
 
-            <div class="card">
-                <h3>QGIS y SIG</h3>
-                <p>Análisis geoespacial, cartografía y gestión de datos territoriales.</p>
+        <section class="ventajas">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Por qué elegir BIMHIDRO?</h2>
+                    <p>Accede a una alianza estratégica entre ingeniería hidráulica, tecnología BIM y análisis espacial.</p>
+                </div>
+                <div class="ventajas-grid">
+                    <div class="ventaja-card">
+                        <h3>Entrega más rápida</h3>
+                        <p>Procesos optimizados que reducen tiempos de diseño y revisión.</p>
+                    </div>
+                    <div class="ventaja-card">
+                        <h3>Mayor precisión</h3>
+                        <p>Resultados fiables con documentación técnica clara y revisiones continuas.</p>
+                    </div>
+                    <div class="ventaja-card">
+                        <h3>Soporte especializado</h3>
+                        <p>Asesoría técnica en cada etapa del proyecto y capacitación personalizada.</p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-        </div>
+        <section class="proyectos" id="proyectos">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Áreas de especialización</h2>
+                    <p>Proyectos hidráulicos con diseño robusto, eficiencia y una mirada sustentable.</p>
+                </div>
+                <div class="contenedor-cards">
+                    <article class="card">Canales</article>
+                    <article class="card">Reservorios</article>
+                    <article class="card">Defensas ribereñas</article>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <section class="cursos" id="cursos">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Capacitación profesional</h2>
+                    <p>Formación en BIM, Civil 3D, HEC-RAS, QGIS, teledetección y análisis hidráulico moderno.</p>
+                </div>
+                <div class="cursos-text">
+                    <p>Mejora las capacidades de tu equipo con cursos prácticos, talleres en línea y programas especializados que aplican directamente al sector hidráulico.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- =======================================
-         PROYECTOS
-    ======================================== -->
-
-    <section class="proyectos" id="proyectos">
-
-        <h2>Áreas de Especialización</h2>
-
-        <div class="contenedor-cards">
-
-            <div class="card">Canales</div>
-            <div class="card">Reservorios</div>
-            <div class="card">Defensas Ribereñas</div>
-
-        </div>
-
-    </section>
-
-    <!-- =======================================
-         CURSOS
-    ======================================== -->
-
-    <section class="cursos" id="cursos">
-
-        <h2>Capacitación Profesional</h2>
-
-        <p>
-            Formación en BIM, Civil 3D, HEC-RAS, QGIS, teledetección y análisis hidráulico moderno.
-        </p>
-
-    </section>
-
-    <!-- =======================================
-         CONTACTO
-    ======================================== -->
-
-    <section class="contacto" id="contacto">
-
-        <h2>Contacto</h2>
-
-        <p>📧 contacto@bimhidroperu.com</p>
-        <p>📱 +51 919 187 336</p>
-
-    </section>
-
-    <!-- =======================================
-         FOOTER
-    ======================================== -->
+        <section class="contacto" id="contacto">
+            <div class="container contacto-grid">
+                <div class="contacto-info">
+                    <h2>Contacto</h2>
+                    <p>📧 <a href="mailto:contacto@bimhidroperu.com">contacto@bimhidroperu.com</a></p>
+                    <p>📱 <a href="tel:+51919187336">+51 919 187 336</a></p>
+                    <p>📍 Lima, Perú</p>
+                </div>
+                <form class="contacto-form" action="#" method="post">
+                    <label>
+                        Nombre
+                        <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    </label>
+                    <label>
+                        Correo
+                        <input type="email" name="email" placeholder="Tu correo" required>
+                    </label>
+                    <label>
+                        Mensaje
+                        <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                    </label>
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
-
-        © 2026 BIMHIDRO PERÚ - Todos los derechos reservados
-
+        <div class="container footer-inner">
+            <p>© 2026 BIMHIDRO PERÚ - Todos los derechos reservados</p>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
