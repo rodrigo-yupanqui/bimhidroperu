@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* ==========================================
-   CONFIGURACIÓN GENERAL
-========================================== */
-
 *{
     margin:0;
     padding:0;
@@ -18,559 +13,149 @@ body{
     background:#ffffff;
 }
 
-/* ==========================================
-   COLORES CORPORATIVOS BIMHIDRO
-========================================== */
-
-/*
-Morado Oscuro : #4B0082
-Morado Principal : #6A0DAD
-Morado Claro : #9D4EDD
-Lila : #E0AAFF
-Blanco : #FFFFFF
-*/
-
-/* ==========================================
-   HEADER
-========================================== */
-
+/* HEADER */
 header{
-
     background:#4B0082;
-
     color:white;
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     padding:20px 50px;
-
     position:fixed;
-
     width:100%;
-
     top:0;
-
     z-index:1000;
 }
 
-/* Logo */
-
 .logo{
-
     font-size:24px;
-
     font-weight:bold;
 }
 
-/* ==========================================
-   MENÚ
-========================================== */
-
+/* MENU */
 nav a{
-
     color:white;
-
     text-decoration:none;
-
     margin-left:25px;
-
     font-weight:bold;
 }
 
 nav a:hover{
-
     color:#E0AAFF;
 }
 
-/* ==========================================
-   PORTADA PRINCIPAL
-========================================== */
-
+/* HERO */
 .hero{
-
     height:100vh;
-
-    background:linear-gradient(
-        135deg,
-        #4B0082,
-        #6A0DAD
-    );
-
+    background:linear-gradient(135deg,#4B0082,#6A0DAD);
     color:white;
-
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     padding:20px;
 }
 
 .hero h1{
-
     font-size:60px;
-
     max-width:900px;
 }
 
 .hero p{
-
     font-size:22px;
-
     margin-top:20px;
 }
 
-/* ==========================================
-   BOTÓN
-========================================== */
-
+/* BOTON */
 .btn{
-
     margin-top:30px;
-
     background:#9D4EDD;
-
     color:white;
-
     padding:15px 30px;
-
     border-radius:8px;
-
     text-decoration:none;
-
     font-weight:bold;
 }
 
 .btn:hover{
-
     background:#E0AAFF;
-
     color:#4B0082;
 }
 
-/* ==========================================
-   SECCIONES
-========================================== */
-
-.servicios,
-.proyectos,
-.cursos,
-.contacto{
-
+/* SECCIONES */
+.servicios,.proyectos,.cursos,.contacto{
     padding:100px 50px;
-
     text-align:center;
 }
 
 h2{
-
     color:#6A0DAD;
-
     margin-bottom:40px;
-
     font-size:40px;
 }
 
-/* ==========================================
-   TARJETAS
-========================================== */
-
+/* CARDS */
 .contenedor-cards{
-
     display:flex;
-
     justify-content:center;
-
     gap:20px;
-
     flex-wrap:wrap;
 }
 
 .card{
-
     width:300px;
-
     background:white;
-
     padding:25px;
-
     border-radius:12px;
-
     box-shadow:0 5px 20px rgba(0,0,0,0.10);
-
     transition:0.3s;
 }
 
 .card:hover{
-
     transform:translateY(-10px);
 }
 
 .card h3{
-
     color:#6A0DAD;
-
     margin-bottom:15px;
 }
 
-/* ==========================================
-   CURSOS
-========================================== */
-
+/* CURSOS */
 .cursos{
-
     background:#F7F0FF;
 }
 
-/* ==========================================
-   CONTACTO
-========================================== */
-
+/* CONTACTO */
 .contacto{
-
     background:#4B0082;
-
     color:white;
 }
 
 .contacto h2{
-
     color:white;
 }
 
-/* ==========================================
-   FOOTER
-========================================== */
-
+/* FOOTER */
 footer{
-
     background:#2D0050;
-
     color:white;
-
     text-align:center;
-
     padding:20px;
 }
 
-/* ==========================================
-   RESPONSIVE PARA CELULAR
-========================================== */
-
+/* RESPONSIVE */
 @media(max-width:768px){
-
     header{
-
         flex-direction:column;
-
         gap:15px;
     }
 
     .hero h1{
-
         font-size:35px;
     }
 
     .hero p{
-
         font-size:18px;
     }
-
-=======
-/* ==========================================
-   CONFIGURACIÓN GENERAL
-========================================== */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    font-family:Arial, sans-serif;
-    background:#ffffff;
-}
-
-/* ==========================================
-   COLORES CORPORATIVOS BIMHIDRO
-========================================== */
-
-/*
-Morado Oscuro : #4B0082
-Morado Principal : #6A0DAD
-Morado Claro : #9D4EDD
-Lila : #E0AAFF
-Blanco : #FFFFFF
-*/
-
-/* ==========================================
-   HEADER
-========================================== */
-
-header{
-
-    background:#4B0082;
-
-    color:white;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:20px 50px;
-
-    position:fixed;
-
-    width:100%;
-
-    top:0;
-
-    z-index:1000;
-}
-
-/* Logo */
-
-.logo{
-
-    font-size:24px;
-
-    font-weight:bold;
-}
-
-/* ==========================================
-   MENÚ
-========================================== */
-
-nav a{
-
-    color:white;
-
-    text-decoration:none;
-
-    margin-left:25px;
-
-    font-weight:bold;
-}
-
-nav a:hover{
-
-    color:#E0AAFF;
-}
-
-/* ==========================================
-   PORTADA PRINCIPAL
-========================================== */
-
-.hero{
-
-    height:100vh;
-
-    background:linear-gradient(
-        135deg,
-        #4B0082,
-        #6A0DAD
-    );
-
-    color:white;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    padding:20px;
-}
-
-.hero h1{
-
-    font-size:60px;
-
-    max-width:900px;
-}
-
-.hero p{
-
-    font-size:22px;
-
-    margin-top:20px;
-}
-
-/* ==========================================
-   BOTÓN
-========================================== */
-
-.btn{
-
-    margin-top:30px;
-
-    background:#9D4EDD;
-
-    color:white;
-
-    padding:15px 30px;
-
-    border-radius:8px;
-
-    text-decoration:none;
-
-    font-weight:bold;
-}
-
-.btn:hover{
-
-    background:#E0AAFF;
-
-    color:#4B0082;
-}
-
-/* ==========================================
-   SECCIONES
-========================================== */
-
-.servicios,
-.proyectos,
-.cursos,
-.contacto{
-
-    padding:100px 50px;
-
-    text-align:center;
-}
-
-h2{
-
-    color:#6A0DAD;
-
-    margin-bottom:40px;
-
-    font-size:40px;
-}
-
-/* ==========================================
-   TARJETAS
-========================================== */
-
-.contenedor-cards{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:20px;
-
-    flex-wrap:wrap;
-}
-
-.card{
-
-    width:300px;
-
-    background:white;
-
-    padding:25px;
-
-    border-radius:12px;
-
-    box-shadow:0 5px 20px rgba(0,0,0,0.10);
-
-    transition:0.3s;
-}
-
-.card:hover{
-
-    transform:translateY(-10px);
-}
-
-.card h3{
-
-    color:#6A0DAD;
-
-    margin-bottom:15px;
-}
-
-/* ==========================================
-   CURSOS
-========================================== */
-
-.cursos{
-
-    background:#F7F0FF;
-}
-
-/* ==========================================
-   CONTACTO
-========================================== */
-
-.contacto{
-
-    background:#4B0082;
-
-    color:white;
-}
-
-.contacto h2{
-
-    color:white;
-}
-
-/* ==========================================
-   FOOTER
-========================================== */
-
-footer{
-
-    background:#2D0050;
-
-    color:white;
-
-    text-align:center;
-
-    padding:20px;
-}
-
-/* ==========================================
-   RESPONSIVE PARA CELULAR
-========================================== */
-
-@media(max-width:768px){
-
-    header{
-
-        flex-direction:column;
-
-        gap:15px;
-    }
-
-    .hero h1{
-
-        font-size:35px;
-    }
-
-    .hero p{
-
-        font-size:18px;
-    }
-
->>>>>>> 33f50570bfe0a9125744aff1125c42ae7a4a5b71
 }
